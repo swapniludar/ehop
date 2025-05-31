@@ -1,0 +1,5 @@
+name: ehop
+
+packages:
+  - apps/**
+  - packages/**

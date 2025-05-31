@@ -1,0 +1,12 @@
+name: ehop
+publish_to: none
+environment:
+  sdk: ^3.7.2
+workspace:
+  - packages/helper
+  - packages/client_package
+  - packages/server_package
+dev_dependencies:
+  melos: ^6.3.2
+dependencies:
+  firebase_core: ^3.13.1
